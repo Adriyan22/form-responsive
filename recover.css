@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    place-items: center;
+}
+header {
+    height: 25vh;
+    display: grid;
+    place-items: end center;
+}
+.recuperacao {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+
+input, a button{
+    height: 40px;
+    width: 100vw;
+    max-width: 90vw;
+    outline: none;
+    border-radius: 10px;
+    border: transparent;
+    text-transform: capitalize;
+    text-indent: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+input::placeholder {
+    color: #000000be;
+}
+
+input:hover , a button:hover {
+    background-color: #ddd;
+    color: #000000be;
+}
+
+a button:active {
+    background-color: #666;
+    color: #fff;
+}
+
+
+@media screen and (min-width: 768px) {
+    input, a button {
+        width: 100vw;
+        max-width: 50vw;
+    }
+}

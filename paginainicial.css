@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to top, #002, #000, #555);
+}
+
+.soon {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.circle-icon {
+    height: 35px;
+    width: 35px;
+    border: 5px solid #708;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    display: grid;
+    place-items: center;
+    position: relative;
+    margin: 0 0 12px 0;
+}
+
+.circle-one {
+    height: 23px;
+    width: 23px;
+    border: 4px solid rgba(170, 0, 102, 0.534);
+    border-radius: 50%;
+    transform: rotate(90deg);
+}
+
+.circle-two {
+    height: 13px;
+    width: 13px;
+    border: 3px solid #a06;
+    border-radius: 50%;
+    position: absolute;
+    transform:  rotate(45deg);
+    padding: -50px;
+}
+
+.circle-three {
+    height: 6px;
+    width: 6px;
+    background-color: #ffffffc3;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.studio-name {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.content {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.lets-get {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.start {
+    color: #c5c;
+}
+
+a .sign-up {
+    width: 30vw;
+    height: 35px;
+    border-radius: 20px;
+    border: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    background-image: linear-gradient(90deg, #a06, #708);
+}
+
+.or-log-in{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0 0 0 ;
+}
+
+.means-of-registratio {
+    display: flex;
+}
+
+.means-of-registration {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.means-of-registration::after {
+    content: "";
+    height: 2px;
+    width: 100vw;
+    background-color: #fff;
+    position: fixed;
+    top: 80%;
+    
+}
+
+.fa-solid{
+    padding: 10px;
+    background-image: linear-gradient(90deg, #a06, #708);
+    color: #fff;
+    border-radius: 50%;
+}
+
+
+
+footer {
+    height: 20vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.new-registration {
+    color: rgba(255, 17, 188, 0.607) !important;
+    text-decoration: none;
+    transition: .3s ease-in-out;
+}
+
+.new-registration:active {
+    color: #f1b !important;
+}
